@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="/#"  className='footer_logo'>GUNAL</a>
+      <p style={{marginBottom:"20px",color:"white"}}>Lets connect</p>
 
      
 
