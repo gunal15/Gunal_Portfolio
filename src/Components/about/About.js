@@ -17,7 +17,7 @@ const About = () => {
 
         <div className='about_content'>
           <p>
-            An aspiring Full stack developer with background knowledge of MERN stacks , I thrive on
+            An aspiring Full stack developer with background knowledge of MERN stacks . I thrive on
             challenge and constantly set goals for myself, so I
             have something to strive towards. I am always
             looking for an opportunity to do better and
