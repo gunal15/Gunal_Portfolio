@@ -1,6 +1,6 @@
 import IMG1 from '../../Asserts/project1.png'
 import IMG2 from '../../Asserts/project2.png'
-//import IMG3 from '../../Asserts/project3.png'
+import IMG3 from '../../Asserts/project3.png'
 //import IMG4 from '../../Asserts/project4.png'
 
 
@@ -25,6 +25,18 @@ export const ProjectData =[
       title: 'AWS polymer search app clone',
       github: 'https://github.com/gunal15/AWS-polymer-search-Frontend',
       demo: 'https://eclectic-haupia-0bab18.netlify.app/search',
+      made:[
+        'React',
+        'NodeJS',
+        'express',
+        'MongoDB'
+      ]
+    },{
+      id: 3,
+      image: IMG3,
+      title: 'Ticket booking app',
+      github: 'https://github.com/gunal15/movie-ticket-booking-fe',
+      demo: 'https://book-my-tickets.netlify.app/',
       made:[
         'React',
         'NodeJS',
