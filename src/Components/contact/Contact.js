@@ -58,9 +58,3 @@ const Contact = () => {
 
 export default Contact
 
-// align-content: stretch;
-//     display: flex;
-//     background-color: white;
-//     flex-wrap: wrap;
-//     flex-direction: row;
-//     justify-content: space-around;
