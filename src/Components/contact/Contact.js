@@ -3,18 +3,20 @@ import './contact.css'
 import {MdOutlineMail} from 'react-icons/md'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {IoMdCall} from 'react-icons/io'
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from "emailjs-com"
 
 
 const Contact = () => {
   const form = useRef();
+  const [isSent, setIsSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_1b8g6fr', 'template_8vuzs3m', form.current, 'jaNE6jcnmWVZG_hQn')
-    
+       .then(() => setIsSent(true))
+      .catch((error) => console.error('Email error:', error));
     e.target.reset()
   };
 
@@ -46,8 +48,9 @@ const Contact = () => {
            <input type="text" name="name" placeholder='Your Full Name' required />
            <input type= 'email' name='email' placeholder='Your Email' required />
            <textarea name='message' rows="7" placeholder='Your Message' required ></textarea>
-           <button type='submit' className='btn btn-primary'>Send Message</button>
+           <button type='submit' className='btn btn-primary'>Send Message</button>{isSent && <p style={{display:"flex",color:"blue"}}>Message sent to Gunal😊</p>}
         </form>
+        
       </div>
     </section>
   )
@@ -55,3 +58,9 @@ const Contact = () => {
 
 export default Contact
 
+// align-content: stretch;
+//     display: flex;
+//     background-color: white;
+//     flex-wrap: wrap;
+//     flex-direction: row;
+//     justify-content: space-around;
