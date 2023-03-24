@@ -1,7 +1,7 @@
 import IMG1 from '../../Asserts/project1.png'
 import IMG2 from '../../Asserts/project2.png'
 import IMG3 from '../../Asserts/project3.png'
-//import IMG4 from '../../Asserts/project4.png'
+import IMG4 from '../../Asserts/project4.png'
 
 
 export const ProjectData =[
@@ -43,6 +43,18 @@ export const ProjectData =[
         'express',
         'MongoDB'
       ]
-    },
+    },{
+      id: 4,
+      image: IMG4,
+      title: 'Flight booking',
+      github: 'https://github.com/gunal15/flight-booking-fe',
+      demo: 'https://flight-booking-fe.netlify.app/',
+      made:[
+        'React',
+        'NodeJS',
+        'express',
+        'MongoDB'
+      ]
+    }
     
 ]
