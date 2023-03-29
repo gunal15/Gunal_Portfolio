@@ -10,6 +10,7 @@ export const ProjectData =[
       image: IMG1,
       title: 'Web Scrapper application',
       github: '	https://github.com/gunal15/webScrappingEcommerce-frontEnd',
+      backend:'https://github.com/gunal15/webScrappingEcommerce-backend',
       demo: '	https://delicate-cascaron-3dc0d1.netlify.app/',
       made: [
         'React',
@@ -24,6 +25,7 @@ export const ProjectData =[
       image: IMG2,
       title: 'AWS polymer search app clone',
       github: 'https://github.com/gunal15/AWS-polymer-search-Frontend',
+      backend:'https://github.com/gunal15/AWS-polymer-search-Backend',
       demo: 'https://eclectic-haupia-0bab18.netlify.app/search',
       made:[
         'React',
@@ -36,6 +38,7 @@ export const ProjectData =[
       image: IMG3,
       title: 'Ticket booking app',
       github: 'https://github.com/gunal15/movie-ticket-booking-fe',
+      backend:'https://github.com/gunal15/movie-ticket-booking-be',
       demo: 'https://book-my-tickets.netlify.app/',
       made:[
         'React',
@@ -48,6 +51,7 @@ export const ProjectData =[
       image: IMG4,
       title: 'Flight booking',
       github: 'https://github.com/gunal15/flight-booking-fe',
+      backend:'https://github.com/gunal15/flight-booking-be',
       demo: 'https://flight-booking-fe.netlify.app/',
       made:[
         'React',

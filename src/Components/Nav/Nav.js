@@ -6,7 +6,7 @@ import {VscTools} from 'react-icons/vsc'
 import {HiCode} from 'react-icons/hi'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {useState} from 'react'
-import { FaGraduationCap } from 'react-icons/fa'
+import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
@@ -17,6 +17,7 @@ const Nav = () => {
       <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><VscTools /></a>
       <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}><HiCode /></a>
       <a href="#education" onClick={() => setActiveNav('#education')} className={activeNav === '#education' ? 'active' : ''}><FaGraduationCap /></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><FaBriefcase />  </a>
       <a href="#contact" onClick={() =>setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
     </nav>
   )

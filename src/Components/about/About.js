@@ -17,11 +17,10 @@ const About = () => {
 
         <div className='about_content'>
           <p>
-            An aspiring Full stack developer with background knowledge of MERN stacks . I thrive on
-            challenge and constantly set goals for myself, so I
-            have something to strive towards. I am always
-            looking for an opportunity to do better and
-            achieve greatness. I build websites using HTML, CSS, JavaScript, and other frameworks and libraries.
+          As an aspiring Full stack developer with a background in MERN stacks,
+           I am excited to apply my skills and knowledge to build great websites and applications. I have experience in a non-IT company, but I am now looking to shift my career to IT and pursue my passion for coding and software development.
+           I am confident in my ability to learn and adapt quickly to new technologies and frameworks .
+             With my expertise in HTML, CSS, JavaScript, and other frameworks and libraries, I am ready to take on new challenges and contribute to the success of any team or project I work on.
           </p>
           <h3>Here are a Few Highlights:</h3>
           <ul>
