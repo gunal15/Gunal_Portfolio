@@ -50,9 +50,9 @@ export const ProjectData =[
       id: 4,
       image: IMG4,
       title: 'Flight booking',
-      github: 'https://github.com/gunal15/flight-booking-fe',
-      backend:'https://github.com/gunal15/flight-booking-be',
-      demo: 'https://flight-booking-fe.netlify.app/',
+      github: 'https://github.com/gunal15/flight-fe',
+      backend:'https://github.com/gunal15/flight-booking-backend',
+      demo: 'https://ease-my-trip-app.netlify.app/',
       made:[
         'React',
         'NodeJS',
