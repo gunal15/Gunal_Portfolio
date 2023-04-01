@@ -37,9 +37,9 @@ export const ProjectData =[
       id: 3,
       image: IMG3,
       title: 'Ticket booking app',
-      github: 'https://github.com/gunal15/movie-ticket-booking-fe',
+      github: 'https://github.com/gunal15/movie-booking-frontend',
       backend:'https://github.com/gunal15/movie-ticket-booking-be',
-      demo: 'https://book-my-tickets.netlify.app/',
+      demo: 'https://movie-ticket-book.netlify.app/',
       made:[
         'React',
         'NodeJS',
