@@ -17,12 +17,12 @@ export const logEvent = (action, params) => {
 };
 
 // Set the User ID
-const setUserId = (userId) => {
+export const setUserId = (userId) => {
   console.log(`Setting user ID: ${userId}`);
   ReactGA.set({ userId });
 };
 
-const setUserProperties = (properties) => {
+export const setUserProperties = (properties) => {
   console.log('Setting user properties:', properties);
   ReactGA.set(properties);
 };
