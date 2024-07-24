@@ -9,6 +9,7 @@ import Education from './Components/Education/Education';
 import Contact from './Components/contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Experience from './Components/experience/experience';
+import { initializeAnalytics } from './analytics';
 
 const App = () => {
   useEffect(() => {
