@@ -12,11 +12,11 @@ const Nav = () => {
 
   const handleAboutClick = () => {
     setActiveNav('#about');
-    setUserId('gunal-15');
+    setUserId('david-15');
     setUserProperties({
-      email: 'gunal@intoaec.com',
-      name: 'gunal',
-      plan: 'premium',
+      email: 'david@intoaec.com',
+      name: 'david',
+      plan: 'test',
     });
   };
 
