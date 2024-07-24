@@ -7,10 +7,13 @@ import {HiCode} from 'react-icons/hi'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {useState} from 'react'
 import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
-import { setUserId, setUserProperties } from '../../analytics'
+import { initGA, setUserId, setUserProperties } from '../../analytics'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
+  useEffect(() => {
+    initGA();
+  }, []);
   return (
     <nav>
       <a href="/#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
