@@ -5,7 +5,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {VscTools} from 'react-icons/vsc'
 import {HiCode} from 'react-icons/hi'
 import {BiMessageSquareDetail} from 'react-icons/bi'
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
 import { initGA, setUserId, setUserProperties } from '../../analytics'
 
