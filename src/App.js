@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react'
+import React, { useEffect } from 'react';
 import Header from './Components/Header/Header';
 import Nav from './Components/Nav/Nav';
 import About from './Components/about/About';
@@ -11,6 +11,9 @@ import Footer from './Components/Footer/Footer';
 import Experience from './Components/experience/experience';
 
 const App = () => {
+  useEffect(() => {
+    initializeAnalytics();
+  }, []);
   return (
     <>
         <Header />
