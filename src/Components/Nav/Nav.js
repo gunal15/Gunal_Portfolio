@@ -11,6 +11,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
 
   const handleAboutClick = () => {
+    console.log("user id clicked")
     setActiveNav('#about');
     setUserId('david-15');
     setUserProperties({
@@ -23,7 +24,7 @@ const Nav = () => {
   return (
     <nav>
       <a href="/#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
-      <a href="#about" onClick={handleAboutClick} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
+      <a href="#about" onClick={()=>handleAboutClick()} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
       <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><VscTools /></a>
       <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}><HiCode /></a>
       <a href="#education" onClick={() => setActiveNav('#education')} className={activeNav === '#education' ? 'active' : ''}><FaGraduationCap /></a>
