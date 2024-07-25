@@ -2,6 +2,41 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3J53H4LDX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E3J53H4LDX');
+
+    function setUserId(userId) {
+      gtag('set', {'user_id': userId});
+    }
+
+    function setUserProperties(properties) {
+      gtag('set', properties);
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const user = {
+        id: 'david',
+        type: 'premium',
+        plan: 'gold',
+        favoriteGenre: 'sci-fi'
+      };
+
+      // Set user ID
+      setUserId(user.id);
+
+      // Set additional user properties
+      setUserProperties({
+        'user_type': user.type,
+        'plan': user.plan,
+        'favorite_genre': user.favoriteGenre
+      });
+    });
+</script>
 
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/g.png" />
