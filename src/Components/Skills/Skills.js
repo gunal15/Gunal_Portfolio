@@ -15,28 +15,28 @@ const Skills = () => {
              <article className='skills_details'>
                <BsPatchCheckFill className='skills_details_icon' />
                <div>
-                 <h4>HTML5</h4>
+                 <h4>React Js</h4>
                </div>
              </article>
              <article className='skills_details'>
                <BsPatchCheckFill className='skills_details_icon'/>
                <div>
-                 <h4>CSS3</h4>
+                 <h4>Next Js</h4>
                </div>
              </article>
              <article className='skills_details'>
                <BsPatchCheckFill className='skills_details_icon'/>
                <div>
-                 <h4>JavaScript</h4>
+                 <h4>Material UI</h4>
                </div>
              </article>
              
-             <article className='skills_details'>
-               <BsPatchCheckFill className='skills_details_icon'/>
-               <div>
-                 <h4>React JS</h4>
-               </div>
-             </article>
+             // <article className='skills_details'>
+             //   <BsPatchCheckFill className='skills_details_icon'/>
+             //   <div>
+             //     <h4>React JS</h4>
+             //   </div>
+             // </article>
           </div>
         </div>
         <div className='skills_backend'>
@@ -57,15 +57,15 @@ const Skills = () => {
              <article className='skills_details'>
                <BsPatchCheckFill className='skills_details_icon'/>
                <div>
-                 <h4>MySQL</h4>
+                 <h4>Postgres Sql</h4>
                </div>
              </article>
-             <article className='skills_details'>
-               <BsPatchCheckFill className='skills_details_icon'/>
-               <div>
-                 <h4>Express</h4>
-               </div>
-             </article>
+             // <article className='skills_details'>
+             //   <BsPatchCheckFill className='skills_details_icon'/>
+             //   <div>
+             //     <h4>Express Js</h4>
+             //   </div>
+             // </article>
           </div>
         </div>
         <div className='skills_backend'>
@@ -86,7 +86,7 @@ const Skills = () => {
              <article className='skills_details'>
                <BsPatchCheckFill className='skills_details_icon'/>
                <div>
-                 <h4>Photoshop</h4>
+                 <h4>Python</h4>
                </div>
              </article>
            
