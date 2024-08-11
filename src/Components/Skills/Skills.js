@@ -31,12 +31,7 @@ const Skills = () => {
                </div>
              </article>
              
-             // <article className='skills_details'>
-             //   <BsPatchCheckFill className='skills_details_icon'/>
-             //   <div>
-             //     <h4>React JS</h4>
-             //   </div>
-             // </article>
+            
           </div>
         </div>
         <div className='skills_backend'>
@@ -60,12 +55,7 @@ const Skills = () => {
                  <h4>Postgres Sql</h4>
                </div>
              </article>
-             // <article className='skills_details'>
-             //   <BsPatchCheckFill className='skills_details_icon'/>
-             //   <div>
-             //     <h4>Express Js</h4>
-             //   </div>
-             // </article>
+          
           </div>
         </div>
         <div className='skills_backend'>
