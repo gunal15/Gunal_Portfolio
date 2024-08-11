@@ -17,16 +17,16 @@ const About = () => {
 
         <div className='about_content'>
           <p>
-          As an aspiring Full stack developer with a background in MERN stacks,
-           I am excited to apply my skills and knowledge to build great websites and applications. I have experience in a non-IT company, but I am now looking to shift my career to IT and pursue my passion for coding and software development.
-           I am confident in my ability to learn and adapt quickly to new technologies and frameworks .
-             With my expertise in HTML, CSS, JavaScript, and other frameworks and libraries, I am ready to take on new challenges and contribute to the success of any team or project I work on.
+        I am an Full stack developer. I thrive on
+challenge and constantly set goals for myself,
+so I have something to strive towards. I am
+always looking for an opportunity to do better
+and achieve greatness.
           </p>
           <h3>Here are a Few Highlights:</h3>
           <ul>
-            <li>Full Stack web and mobile development</li>
+            <li>Full Stack web development</li>
             <li>Interactive Front End as per the design</li>
-            <li>React</li>
             <li>Building REST API</li>
             <li>Managing database</li>
           </ul>
